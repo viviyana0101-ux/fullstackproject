@@ -1,5 +1,5 @@
 import TaskItem from './TaskItem'
-import './TaskList.css'
+import './Tasklist.css'
 
 function TaskList({ tasks, filter, setFilter, onDelete, onToggle, onEdit, total, active, completed }) {
   const filtered = tasks.filter(t => {
